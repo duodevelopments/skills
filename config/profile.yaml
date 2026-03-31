@@ -1,0 +1,46 @@
+# Author profile — read by content skills to personalize output.
+# Update these fields so the skill can skip clarifying questions
+# when context is already available.
+
+author:
+  name: ""                       # Your display name (used in bylines)
+  tagline: ""                    # One-line bio, e.g. "Helping frum business owners scale ops"
+  linkedin_url: ""               # https://linkedin.com/in/your-handle
+  website_url: ""                # optional blog/portfolio link
+
+audience:
+  primary: "Frum Jewish business owners and operators"
+  secondary: "Full-spectrum frum professionals"
+  pain_points: []                # e.g. ["scaling without burning out", "hiring within the community"]
+  aspirations: []                # e.g. ["build generational businesses", "work-life balance"]
+
+expertise:
+  domains: []                    # e.g. ["operations", "tech strategy", "community leadership"]
+  signature_topics: []           # recurring themes you want to be known for
+  unique_angle: ""               # what makes your POV different from everyone else's
+
+tone:
+  default: "tactical/actionable" # options: conversational-expert | sharp-opinionated | storytelling | tactical/actionable
+  voice_notes: |
+    - No fluff. Lead with the problem, deliver the fix.
+    - Write for someone mid-scroll who has 5 seconds to decide if this is worth reading.
+    - Never brag. Frame everything as useful to the reader.
+    - Speak like a peer, not a guru.
+
+content_rules:
+  linkedin:
+    hook_max_chars: 110          # ~2 short lines before "… more"
+    hook_style: "pattern-interrupt"
+    never:
+      - Start with "I"
+      - Use emoji in the hook
+      - Include hashtags in the hook
+      - Sound like a personal achievement post
+    always:
+      - Make the hook about the READER or a universal tension
+      - Create an open loop (unanswered question, contradiction, bold claim)
+      - End with a clear reason to follow
+  article:
+    min_words: 600
+    max_words: 2000
+    structure: "problem → insight → actionable takeaway"
