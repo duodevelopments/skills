@@ -3,21 +3,46 @@
 # when context is already available.
 
 author:
-  name: ""                       # Your display name (used in bylines)
-  tagline: ""                    # One-line bio, e.g. "Helping frum business owners scale ops"
-  linkedin_url: ""               # https://linkedin.com/in/your-handle
-  website_url: ""                # optional blog/portfolio link
+  name: "Daniel Weingarden"                       # Your display name (used in bylines)
+  tagline: "Founder, SmartSite Studio · I help service businesses and nonprofits get more clients and work less using smart technology"                    # One-line bio, e.g. "Helping frum business owners scale ops"
+  linkedin_url: "https://www.linkedin.com/in/danielweingarden/"               # https://linkedin.com/in/your-handle
+  website_url: "https://smartsite.studio"                # optional blog/portfolio link
+  phone: "248-509-4543"                            # SECONDARY CTA — include after the contact form for audiences (trades, service businesses) that prefer to call. Never lead with it.
+  contact_url: "https://smartsite.studio/contact"  # PRIMARY CTA destination — always lead with this
 
 audience:
-  primary: "Frum Jewish business owners and operators"
-  secondary: "Full-spectrum frum professionals"
-  pain_points: []                # e.g. ["scaling without burning out", "hiring within the community"]
-  aspirations: []                # e.g. ["build generational businesses", "work-life balance"]
+  primary: "Frum Jewish business owners and operators — especially trades (plumbers, HVAC, landscapers, electricians) and nonprofit directors"
+  secondary: "Full-spectrum frum professionals and Growing small business owners who've outgrown their DIY setup and know they need something better but don't know where to start"
+  pain_points: 
+    - "Leads slipping through the cracks because they're too busy doing the actual work"
+    - "Competitors with worse work but better websites getting the calls"
+    - "Paid for a website that does nothing — gun-shy about spending again"
+    - "Everyone says 'you need AI' but nobody explains what that actually means for their business"
+    - "Marketing feels like a second job they never signed up for"
+    - "Embarrassed to send people their URL"
+    - "Donor management is a mess — spreadsheets, sticky notes, no follow-up system"
+  aspirations: 
+    - "A business that runs without them white-knuckling every lead"
+    - "Phone rings, calendar fills, follow-ups happen — automatically"
+    - "Looking as professional online as they are in person"
+    - "Using AI as a real tool, not a buzzword"
+    - "More time for family, community, and the work they actually love"
+    - "Knowing exactly what's working and what's wasting money — no more guessing"
 
 expertise:
-  domains: []                    # e.g. ["operations", "tech strategy", "community leadership"]
-  signature_topics: []           # recurring themes you want to be known for
-  unique_angle: ""               # what makes your POV different from everyone else's
+  domains:
+    - "Web development for service businesses and nonprofits"
+    - "AI consulting and implementation for small business"
+    - "Conversion-focused website strategy"
+    - "Local SEO and Google visibility"
+    - "Business automation (follow-ups, booking, donor management)"
+  signature_topics:
+    - "Where AI actually fits in a small business (and where it doesn't)"
+    - "Why most small business websites lose money instead of making it"
+    - "The gap between how good your business is and how good your website looks"
+    - "Automation that replaces busywork, not people"
+    - "What trades and nonprofits get wrong about their online presence"
+  unique_angle: "I run a small web studio in Southfield, MI — I built our own AI chatbot, I consult on AI before I sell it, and I tell clients when they don't need it. I'm not an AI evangelist or a tech bro. I'm a builder who uses AI as a tool to get small businesses and nonprofits real results — leads, donations, booked jobs — not buzzwords."
 
 tone:
   default: "tactical/actionable" # options: conversational-expert | sharp-opinionated | storytelling | tactical/actionable
@@ -26,6 +51,15 @@ tone:
     - Write for someone mid-scroll who has 5 seconds to decide if this is worth reading.
     - Never brag. Frame everything as useful to the reader.
     - Speak like a peer, not a guru.
+    - AI is a tool, not a topic. Describe what can be done with it, not what it is.
+    - Hooks should create real tension or urgency — not "here's a cool thing we built." Go provocative. Raise stakes. Make the reader feel something is at risk if they keep scrolling past.
+    - When illustrating pain points or use cases, use examples that feature the reader's CUSTOMERS, not the reader themselves. A plumber already knows he's a plumber — show him his customer at 2am with a burst pipe.
+    - Every claim needs a receipt — use real numbers (450% sales growth, 413% donation increase). Exception: for brand-new product or feature announcements where no data exists yet, ship without receipts but plan a follow-up post in 30-60 days with early results.
+    - Short sentences. If it has a comma, consider splitting it.
+    - Sound like a smart person at a coffee meeting, not a marketing team writing a press release.
+    - Never say: leverage, seamless, revolutionary, game-changing, cutting-edge, empower, AI-powered.
+    - Never position by comparing or contrasting with competitors ("most agencies," "everyone else," "unlike other"). Express expertise through what you bring, not what others get wrong.
+    - Lead CTAs with the contact form (smartsite.studio/contact) — Daniel prefers form leads because they let him respond on his own schedule. But include the phone number (248-509-4543) as a secondary option for audiences who prefer to call (trades, service businesses). Format: "Reach out at smartsite.studio/contact, or call us at 248-509-4543." Form first, phone second. Never lead with the phone, never omit it entirely.
 
 content_rules:
   linkedin:
@@ -36,10 +70,17 @@ content_rules:
       - Use emoji in the hook
       - Include hashtags in the hook
       - Sound like a personal achievement post
+      - Use "leverage," "seamless," "game-changing,", etc
+      - Lead with AI hype — lead with the business problem AI solves
+      - Compare or contrast with competitors ("most agencies," "everyone else," etc)
     always:
       - Make the hook about the READER or a universal tension
       - Create an open loop (unanswered question, contradiction, bold claim)
       - End with a clear reason to follow
+      - Include at least one specific number or concrete example
+      - Frame AI in terms of what it does, not what it is
+      - Put external links in the FIRST COMMENT, not the post body — LinkedIn algorithm penalizes outbound links. End the post with "Link in the comments."
+      - Draft a SECOND COMMENT designed to invite conversation (open question or invitation) to drop 2-3 minutes after posting — this drives engagement more than post edits
   article:
     min_words: 600
     max_words: 2000
